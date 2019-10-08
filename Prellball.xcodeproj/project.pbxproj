@@ -24,6 +24,7 @@
 		29BBA1E1234B7EAA00A63635 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BBA1E0234B7EAA00A63635 /* NotificationView.swift */; };
 		29BBA1E3234B7EAA00A63635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29BBA1E2234B7EAA00A63635 /* Assets.xcassets */; };
 		29BBA1E6234B7EAA00A63635 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29BBA1E5234B7EAA00A63635 /* Preview Assets.xcassets */; };
+		29BBA1F7234B7EDF00A63635 /* PrellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BBA1F6234B7EDF00A63635 /* PrellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		29BBA1E5234B7EAA00A63635 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		29BBA1E7234B7EAA00A63635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29BBA1E8234B7EAA00A63635 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		29BBA1F6234B7EDF00A63635 /* PrellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 				29BBA1E2234B7EAA00A63635 /* Assets.xcassets */,
 				29BBA1E7234B7EAA00A63635 /* Info.plist */,
 				29BBA1E8234B7EAA00A63635 /* PushNotificationPayload.apns */,
+				29BBA1F6234B7EDF00A63635 /* PrellViewModel.swift */,
 				29BBA1E4234B7EAA00A63635 /* Preview Content */,
 			);
 			path = "Prellball WatchKit Extension";
@@ -334,6 +337,7 @@
 				29BBA1D9234B7EAA00A63635 /* ContentView.swift in Sources */,
 				29BBA1DF234B7EAA00A63635 /* NotificationController.swift in Sources */,
 				29BBA1DD234B7EAA00A63635 /* ExtensionDelegate.swift in Sources */,
+				29BBA1F7234B7EDF00A63635 /* PrellViewModel.swift in Sources */,
 				29BBA1E1234B7EAA00A63635 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
