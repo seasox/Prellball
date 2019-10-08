@@ -56,7 +56,7 @@ struct PrellViewModel {
         let utterance = AVSpeechUtterance(string: text)
         utterance.rate = 0.2
         utterance.voice = AVSpeechSynthesisVoice(language: "de-DE")
-        //synthesizer.speak(utterance)
+        synthesizer.speak(utterance)
         print(utterance.speechString)
     }
 }
